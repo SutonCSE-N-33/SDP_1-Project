@@ -1,0 +1,256 @@
+/*
+Template Name: 
+Author:
+version:
+
+-----------------------------------------------------------
+Table of Contents
+-----------------------------------------------------------
+1) Common CSS
+*/
+
+/* Common CSS Start */
+body{
+    font-family: sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6, ul, ol, span, p{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+/* Common CSS End */
+
+
+                            /* Categories Section */
+.categories{
+    padding:50px;
+    background: black;
+}
+.categories-btn{
+    border: 1px solid greenyellow;
+    padding:3px 30px;
+    background:transparent;
+    font-size: 22px;
+    color:crimson;
+    font-weight: 300;
+    border-radius: 0.5rem;
+    transition: 2s;
+}
+.categories-btn:hover{
+    border: 1px solid crimson;
+    color:black;
+    background: white;
+}
+
+.categories-icon{
+    font-size: 30px !important;
+    color:white;
+    margin-left: 10px;
+    margin-top: -40px !important;
+}
+.categories-icon:hover{
+    color:crimson !important;
+}
+.list{
+    background: cyan;
+    width: 200px;
+    padding:10px;
+    margin-top: 10px;
+}
+.categories-btn:hover+.list{
+          display: block;
+}
+
+
+.list li{
+    border-bottom: 1px solid white;
+    margin:5px;
+    
+}
+a{
+    text-decoration: none;
+}
+.list li:hover{
+    background: crimson;
+    color:white;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+.content-title{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    color:cyan;
+    font-weight: 100;
+}
+.video img{
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.content-icon{
+    font-size: 30px;
+    color:cyan;
+    transform: translate(95px,20px);
+}
+
+
+
+                            /* Slider */
+.prev-icon{
+    color:red !important;
+    font-size: 40px !important;
+}
+.slider{
+    background: darkcyan !important;
+    color:red !important;
+}
+
+
+
+                          /* lern section */
+.lern{
+    background: white;
+    padding: 50px;
+}
+.lern-title{
+    text-align: center;
+    color: rgb(50, 20, 220);
+    font-size: 30px;
+    text-transform:uppercase;
+    font-weight: 100 !important;
+    margin-bottom: 60px;
+}
+.item-1{
+    text-align: center;
+}
+.science-box{
+   border: 1px solid rgb(50, 20, 220);
+   box-shadow: 5px 5px 3px 5px rgba(0, 0, 0, .1);
+   border-radius: 0.5rem;
+   margin-bottom: 20px;
+   cursor: pointer;
+   margin-left: 10px;
+}
+.item-1-title{
+    text-align: center;
+    color:blue;
+    font-size: 20px;
+    margin-top: 20px;
+    transform: translate(50px,20px);
+}
+.second-row{
+    margin-top: 150px;
+}
+.item-2{
+    margin-top: 70px;
+    text-align: center;
+}
+.item-3{
+    margin-top: 70px;
+    text-align: center;
+}
+
+
+                                   /* testimonial */
+
+.testimonial{
+    background:black;
+    height: 600px;
+}
+.text{
+    margin-top:80px;
+}
+.text h3{
+    transform: translate(10px);
+    text-align: center;
+    color: rgb(50, 20, 220);
+    font-weight: 200;
+}
+.text h2{
+    transform: translate(10px);
+    text-align: center;
+    color: red;
+    
+}
+.customer-image{
+    transform: translate(160px, -70px);
+}
+.client-img{
+    border-radius: 50%;
+    float: top;
+    object-fit: center center;
+}
+.box{
+    height: 350px;
+    width: 600px;
+    background: transparent !important;
+    border: 1px solid white;
+    transform: translate(280px, 80px);
+    padding: 10px;
+}
+.box h1{
+    color:rgb(50, 20, 220);
+    margin-top: -50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.star{
+    display: flex;
+    justify-content: center;  
+}
+.icon{
+    text-align: center;
+    color: #f15025;
+}
+#customer-text{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.quote-icon{
+    display: block;
+    color: #f15025;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+}
+.prevBtn{
+    font-size: 22px;
+    padding-top: 10px;
+    color: yellowgreen;
+    background: transparent;
+    border-radius: 50px;
+    border:1px solid crimson;
+   transform: translate(220px, -70px);
+}
+.prevBtn:hover{
+    background: crimson;
+    color: white;
+}
+.nextBtn{
+    font-size: 22px;
+    padding-top: 10px;
+    color: yellowgreen;
+    background: transparent;
+    border-radius: 50px;
+    border:1px solid crimson;
+    transform: translate(850px, -70px);
+}
+.nextBtn:hover{
+    background: crimson;
+    color: white;
+}
